@@ -1,12 +1,9 @@
 # imooc-HTMLCSS
 
-
 ## 2-3
-##### 大纲 
-```
+
+```console
 https://h5o.github.io/
 ```
 
-
 ## 2-4
-##### 
