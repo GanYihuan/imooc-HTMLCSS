@@ -17,13 +17,22 @@
     .cc3 {
       font-size: 24px;
     }
+
+    /* 消除空隙, 图片是 inline 元素, 默认是基于 baseline 对齐, 导致空隙 */
+    img {
+      vertical-align: bottom
+    }
   </style>
 </head>
 <body>
+  <!-- 字体大小决定字体背景 -->
+  <!-- line-height 写垂直居中 -->
+  <!-- vertical-align: top   按照顶线对齐, 默认是 baseline -->
   <div style="border:solid 1px red;">
     <span style="background:blue;color:#fff;font-size:20px;line-height:60px;">
       居中xfg&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    </span></div>
+    </span>
+  </div>
   <div class="c1">
     <span class="cc1">第一段</span>
     <span class="cc2">第二段</span>
